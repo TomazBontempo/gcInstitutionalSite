@@ -1,0 +1,369 @@
+@import url("https//fonts.googleapis.com/css2?family=Rubik:wght@400;514&display=swap");
+* {
+  color: #ffffff;
+}
+
+.hearder {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#navItem {
+  font-size: 25px;
+  margin-left: 2vh;
+}
+#navItem:hover {
+  color: #ff0052;
+}
+
+.container00 {
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.arrowDown {
+  display: inline-block;
+  width: 90px;
+  margin-top: 5px;
+}
+
+.logoPC {
+  width: 250px;
+  margin-left: -20px;
+  margin-right: 20px;
+}
+
+.footer {
+  background-color: #000000;
+  height: 15vh;
+  font-size: 15px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+a:hover {
+  color: #ff0052;
+}
+
+@media (max-widht: 405px) {
+  .logoPC {
+    width: 180px;
+    margin: auto;
+  }
+}
+@media (max-widht: 375px) {
+  .footer {
+    font-size: 10px;
+  }
+}
+.container00.container01 {
+  background-image: url(../images/Home/worldmap.png);
+}
+.container00.container02 {
+  background-image: url(../images/Home/servers.png);
+}
+.container00.container03 {
+  background-image: url(../images/Home/gcdemogameplay.gif);
+}
+.container00.container04 {
+  background-image: url(../images/Home/fiber.png);
+}
+
+.tittlePadding1 {
+  padding-top: 55vh;
+}
+
+.tittlePadding2 {
+  padding-top: 75vh;
+  padding-left: 5vh;
+  color: #000000;
+}
+
+.tittlePadding3 {
+  padding-top: 10vh;
+  padding-left: 5vh;
+  color: #ff0052;
+}
+
+.tittlePadding4 {
+  padding-top: 50vh;
+}
+
+#button {
+  padding: 15px 35px;
+}
+
+.container00.container05 {
+  background-image: url(../images/custombuilds/cover.png);
+}
+.container00.container06 {
+  background-image: url(../images/custombuilds/blueprintpc.png);
+}
+.container00.carrossel01 {
+  background-image: url(../images/custombuilds/highend.png);
+}
+.container00.carrossel02 {
+  background-image: url(../images/custombuilds/intermediario.png);
+}
+.container00.carrossel03 {
+  background-image: url(../images/custombuilds/entrada.png);
+}
+.container00.container07 {
+  background-image: url(../images/custombuilds/notebook1.png);
+}
+
+.titleCustomBuilds {
+  padding-top: 20vh;
+  font-size: 150px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 514;
+  color: #ff0052;
+}
+
+.subtitleCustom {
+  font-size: 50px;
+}
+
+.titleContent {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  justify-content: center;
+}
+
+.numbers {
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.numbers .titleNumb {
+  font-size: 90px;
+}
+.numbers .subtitleNumb {
+  font-size: 20px;
+}
+
+.serviceDesc {
+  font-size: 30px;
+  line-height: 50px;
+}
+
+.containerServiceDesc {
+  padding-top: 7vh;
+  margin-left: 10vh;
+  display: grid;
+  width: 60vh;
+  color: #ff0052;
+  align-items: center;
+  justify-content: left;
+}
+
+#overviewPosition {
+  width: 500px;
+  margin-left: 10%;
+  padding-top: 20%;
+}
+
+.notebookDesc {
+  padding-bottom: 5%;
+}
+
+.carrosselSlide img {
+  height: 100vh;
+}
+
+@media (max-width: 768px) {
+  .titleCustomBuilds {
+    padding-top: 20vh;
+    font-size: 75px;
+    font-weight: 514;
+    color: #ff0052;
+  }
+  .subtitleCustom {
+    font-size: 20px;
+  }
+  .numbers .titleNumb {
+    font-size: 80px;
+  }
+  .numbers .subtitleNumb {
+    font-size: 20px;
+  }
+  .serviceDesc {
+    font-weight: bold;
+  }
+  .containerServiceDesc {
+    width: auto;
+    margin-left: auto;
+  }
+  #overviewPosition {
+    width: auto;
+    padding-top: 50%;
+  }
+}
+@media (max-width: 575px) {
+  .numbers {
+    height: 60vh;
+  }
+  .serviceDesc {
+    font-size: 20px;
+    line-height: 50px;
+  }
+  #overviewPosition {
+    padding-top: 70%;
+  }
+}
+.container00.container08 {
+  background-image: url(../images/gcclub/cover.png);
+}
+.container00.container09 {
+  background-image: url(../images/gcclub/gcclanparty.png);
+}
+.container00.container10 {
+  background-image: url(../images/gcclub/gccconvention.png);
+}
+.container00.container11 {
+  background-image: url(../images/gcclub/gcctournament.png);
+}
+.container00.container12 {
+  background-image: url(../images/gcclub/gcccosplay.png);
+}
+
+.coverContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+.coverContent .titleGcclub {
+  font-size: 150px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 514;
+  color: #ff0052;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+.coverContent .subtitleGcclub {
+  font-size: 40px;
+  font-weight: bolder;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+
+.clubDesc {
+  width: 50%;
+  margin: 0px auto;
+  padding: 5vh 0px;
+  font-size: 20px;
+}
+
+.containerRightContent {
+  margin-left: 65%;
+  padding-top: 20%;
+}
+
+.containerLeftContent {
+  margin-left: 15%;
+  padding-top: 20%;
+}
+
+.titleSection {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 1440px) {
+  .containerLeftContent {
+    margin-left: 5%;
+  }
+}
+@media (max-width: 1024px) {
+  .containerRightContent {
+    margin-left: 70%;
+    padding-top: 35%;
+  }
+  .containerLeftContent {
+    margin-left: auto;
+    padding-top: 35%;
+  }
+  .titleSection {
+    font-size: 40px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+  }
+  .subtitle {
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+  }
+}
+@media (max-width: 768px) {
+  .containerRightContent {
+    margin-left: auto;
+    padding-top: 35%;
+  }
+  .containerLeftContent {
+    margin-left: auto;
+    padding-top: 35%;
+  }
+  .titleSection {
+    font-size: 40px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+  }
+  .subtitle {
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+  }
+}
+@media (max-width: 450px) {
+  .container00.container09 {
+    background-image: url(../images/gcclub/lanpartym.png);
+  }
+  .container00.container10 {
+    background-image: url(../images/gcclub/conventionm.png);
+  }
+  .container00.container11 {
+    background-image: url(../images/gcclub/tournamentm.png);
+  }
+  .container00.container12 {
+    background-image: url(../images/gcclub/cosplaym.png);
+  }
+  .coverContent .titleGcclub {
+    font-size: 70px;
+  }
+  .coverContent .subtitleGcclub {
+    font-size: 30px;
+  }
+}
+@media (max-width: 500px) {
+  .titleGcclub {
+    font-size: 100px;
+  }
+  .subtitleGcclub {
+    font-size: 25px;
+  }
+}
+@media only screen and (max-height: 1049px) and (min-height: 911px) {
+  .container00.container09 {
+    background-image: url(../images/gcclub/gcclanpartydf.png);
+  }
+  .container00.container10 {
+    background-image: url(../images/gcclub/gccconventiondf.png);
+  }
+  .container00.container11 {
+    background-image: url(../images/gcclub/gcctournamentdf.png);
+  }
+  .container00.container12 {
+    background-image: url(../images/gcclub/gcccosplaydf.png);
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
