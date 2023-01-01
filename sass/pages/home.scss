@@ -1,0 +1,41 @@
+.container00 {
+  &.container01 {
+    background-image: url(../images/Home/worldmap.png);
+  }
+
+  &.container02 {
+    background-image: url(../images/Home/servers.png);
+  }
+
+  &.container03 {
+    background-image: url(https://drive.google.com/file/d/13rmZZ8VpFfSS3ia8hwEJQXYcaQmqnjW-/view?usp=sharing);
+  }
+
+  &.container04 {
+    background-image: url(../images/Home/fiber.png);
+  }
+}
+
+.tittlePadding1 {
+  padding-top: 55vh;
+}
+
+.tittlePadding2 {
+  padding-top: 75vh;
+  padding-left: 5vh;
+  color: #000000;
+}
+
+.tittlePadding3 {
+  padding-top: 10vh;
+  padding-left: 5vh;
+  color: #ff0052;
+}
+
+.tittlePadding4 {
+  padding-top: 50vh;
+}
+
+#button {
+  padding: $padding-button;
+}

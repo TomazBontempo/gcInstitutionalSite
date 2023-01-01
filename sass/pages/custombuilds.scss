@@ -1,0 +1,143 @@
+.container00 {
+  &.container05 {
+    background-image: url(../images/custombuilds/cover.png);
+  }
+  &.container06 {
+    background-image: url(../images/custombuilds/blueprintpc.png);
+  }
+
+  &.carrossel01 {
+    background-image: url(../images/custombuilds/highend.png);
+  }
+
+  &.carrossel02 {
+    background-image: url(../images/custombuilds/intermediario.png);
+  }
+
+  &.carrossel03 {
+    background-image: url(../images/custombuilds/entrada.png);
+  }
+
+  &.container07 {
+    background-image: url(../images/custombuilds/notebook1.png);
+  }
+}
+
+.titleCustomBuilds {
+  padding-top: 20vh;
+  font-size: 150px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 514;
+  color: #ff0052;
+}
+
+.subtitleCustom {
+  font-size: 50px;
+}
+
+.titleContent {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  justify-content: center;
+}
+
+.numbers {
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .titleNumb {
+    font-size: 90px;
+  }
+
+  .subtitleNumb {
+    font-size: 20px;
+  }
+}
+
+.serviceDesc {
+  font-size: 30px;
+  line-height: 50px;
+}
+
+.containerServiceDesc {
+  padding-top: 7vh;
+  margin-left: 10vh;
+  display: grid;
+  width: 60vh;
+  color: #ff0052;
+  align-items: center;
+  justify-content: left;
+}
+
+#overviewPosition {
+  width: 500px;
+  margin-left: 10%;
+  padding-top: 20%;
+}
+
+.notebookDesc {
+  padding-bottom: 5%;
+}
+
+.carrosselSlide {
+  img {
+    height: 100vh;
+  }
+}
+
+// Mediaquery
+
+@media (max-width: 768px) {
+  .titleCustomBuilds {
+    padding-top: 20vh;
+    font-size: 75px;
+    font-weight: 514;
+    color: #ff0052;
+  }
+
+  .subtitleCustom {
+    font-size: 20px;
+  }
+
+  .numbers {
+    .titleNumb {
+      font-size: 80px;
+    }
+
+    .subtitleNumb {
+      font-size: 20px;
+    }
+  }
+
+  .serviceDesc {
+    font-weight: bold;
+  }
+
+  .containerServiceDesc {
+    width: auto;
+    margin-left: auto;
+  }
+
+  #overviewPosition {
+    width: auto;
+    padding-top: 50%;
+  }
+}
+
+@media (max-width: 575px) {
+  .numbers {
+    height: 60vh;
+  }
+
+  .serviceDesc {
+    font-size: 20px;
+    line-height: 50px;
+  }
+
+  #overviewPosition {
+    padding-top: 70%;
+  }
+}
