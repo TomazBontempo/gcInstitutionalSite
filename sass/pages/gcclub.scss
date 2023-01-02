@@ -69,7 +69,27 @@
   margin-bottom: 40px;
 }
 
-// Mediaquery
+// Mediaquery:
+
+@media only screen and (max-height: 1049px) and (min-height: 911px) {
+  .container00 {
+    &.container09 {
+      background-image: url(../images/gcclub/gcclanpartydf.png);
+    }
+
+    &.container10 {
+      background-image: url(../images/gcclub/gccconventiondf.png);
+    }
+
+    &.container11 {
+      background-image: url(../images/gcclub/gcctournamentdf.png);
+    }
+
+    &.container12 {
+      background-image: url(../images/gcclub/gcccosplaydf.png);
+    }
+  }
+}
 
 @media (max-width: 1440px) {
   .containerLeftContent {
@@ -154,25 +174,5 @@
 
   .subtitleGcclub {
     font-size: 25px;
-  }
-}
-
-@media only screen and (max-height: 1049px) and (min-height: 911px) {
-  .container00 {
-    &.container09 {
-      background-image: url(../images/gcclub/gcclanpartydf.png);
-    }
-
-    &.container10 {
-      background-image: url(../images/gcclub/gccconventiondf.png);
-    }
-
-    &.container11 {
-      background-image: url(../images/gcclub/gcctournamentdf.png);
-    }
-
-    &.container12 {
-      background-image: url(../images/gcclub/gcccosplaydf.png);
-    }
   }
 }
